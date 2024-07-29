@@ -38,7 +38,7 @@ Then, it is required to install the [`Tmux Plugin Manager`](https://github.com/t
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-Copy the configuration file from this repository:
+After that, copy the configuration file from this repository:
 
 ```
 curl -o tmux.conf $XDG_CONFIG_HOME/tmux/tmux.conf
@@ -53,6 +53,10 @@ Finally, connect to `tmux` and run the following command so configuration plugin
 ```
 prefix + I
 ```
+
+> **Note**
+> 
+> It is required to use the old `prefix` instead of the new one added by this project (`Ctrl + spacebar`), because the new configuration is not applied at this moment.
 
 ## Changelog
 
