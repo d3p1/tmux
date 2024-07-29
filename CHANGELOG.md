@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/d3p1/tmux/compare/v1.0.0...v1.0.1) (2024-07-29)
+
+
+### Bug Fixes
+
+* adjust README.md file [[#1](https://github.com/d3p1/tmux/issues/1)] ([b7861a1](https://github.com/d3p1/tmux/commit/b7861a1ace149507deb60227095b9d7502d029d6))
+
 # 1.0.0 (2024-07-29)
 
 
