@@ -38,15 +38,15 @@ Then, it is required to install the [`Tmux Plugin Manager`](https://github.com/t
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-Clone the configuration file from this repository:
+Copy the configuration file from this repository:
 
 ```
-git clone git@github.com:d3p1/tmux/src/tmux.conf $XDG_CONFIG_HOME/tmux/tmux.conf
+curl -o tmux.conf $XDG_CONFIG_HOME/tmux/tmux.conf
 ```
 
 > **Note**
 >
-> In the previous example, the configuration file is cloned/copied to `$XDG_CONFIG_HOME/tmux/tmux.conf`, but it can also be cloned/copied to `~/.tmux.conf`: `git clone git@github.com:d3p1/tmux/src/tmux.conf ~/.tmux.conf`
+> In the previous example, the configuration file is copied to `$XDG_CONFIG_HOME/tmux/tmux.conf`, but it can also be copied to `~/.tmux.conf`: `curl -o tmux.conf ~/.tmux.conf`
 
 Finally, connect to `tmux` and run the following command so configuration plugins are installed and environment is reloaded:
 
